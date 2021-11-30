@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 1rem;
+    color: steelblue;
+}
+
+ button {
+    background-color:steelblue;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 1rem;
+} 
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    border: 1px;
+    width: 40rem;
+}
